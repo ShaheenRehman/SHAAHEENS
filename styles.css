@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+#title {
+    background-color: #000000;
+}
+.titleimage {
+    width: 66%;
+    margin-left: 90px;
+}
+.webtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+.navbar {
+    padding-bottom: 4.4rem;
+}
+.navbar-brand {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.btnbtn {
+    margin-top: 25px;
+}
+.btnDown {
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+.nav-link {
+    margin-right: 45px;
+}
+#features {
+    padding: 5% 15%;
+}
+.col-lg-4 {
+    text-align: center;
+    padding: 5%;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.paragrey {
+    color: #8f8f8f;
+}
+.fa-5x {
+    margin-bottom: 1.5rem;
+    color: black;
+}
+.fa-5x:hover {
+    color: #8f8f8f;
+
+
+/* tetimonials     */
+}
+#testis {
+    background: #000;
+    text-align: center;
+}
+.carousel-item {
+    padding: 5% 15%;
+}
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 2.5rem;
+}
+.testisimg {
+    width: 115px;
+    border-radius: 100%;
+    margin: 25px;
+}
+em {
+    color: white;
+    display: block;
+}
+
+
+/* press */
+#press {
+    background-color: #000;
+    text-align: center;
+}
+.presslogo {
+    width: 155px;
+    margin: 25px 25px 85px;
+}
+
+
+/* cards */
+.h2black {
+    color: #000;
+}
+#pricing {
+    padding: 55px;
+    text-align: center;
+}
+.pricecol {
+    padding: 3% 2%;
+}
+
+
+/* CTA */
+#cta {
+    background-color: #000;
+    text-align: center;
+    padding: 10% 28%;
+}
+.h3cta {
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 1.5;
+}
+.downbtn {
+    margin: 15px;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #fff;
+    text-align: center;
+}
+.footers {
+    padding: 5% 15%;
+}
+.foots {
+    margin: 5px; 
+}
+.cc {
+margin: 11px;
+}
+
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+    .titleimage {
+        margin-left: 0px; }
+        .btnDown {
+            margin: 10px;
+        }
+        h2 {
+            line-height: 1.5;
+            font-size: 1.5rem;
+        }
+        .presslogo {
+            width: 100px;
+            margin: 55px 05px 55px;
+        }
+}
